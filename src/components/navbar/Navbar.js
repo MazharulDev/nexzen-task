@@ -1,5 +1,4 @@
 import React from 'react';
-import './Navbar.css'
 import logo from '../../assets/img/logo.png'
 import { IoMdNotificationsOutline } from 'react-icons/io'
 import profile from '../../assets/img/profile.png'
@@ -9,11 +8,11 @@ const Navbar = () => {
     return (
         <div className='flex justify-between items-center'>
             <div className='flex justify-center items-center'>
-                <div>
+                <div className='ml-7'>
                     <img src={logo} alt="" />
                     <p className='font-bold text-xs text-center'>Nexzen Demo</p>
                 </div>
-                <h2 className='text-2xl font-bold ml-4'>Prospect</h2>
+                <h2 className='text-2xl font-bold ml-7'>Prospect</h2>
             </div>
             <div className='flex justify-center items-center mr-4'>
                 <span className='relative'>
@@ -21,7 +20,7 @@ const Navbar = () => {
                     <span class="absolute top-2 right-2 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-blue-400 rounded-full">0</span>
                 </span>
                 <img src={profile} alt="" />
-                <p className='text-blue-500 font-bold'>superadim</p>
+                <p className='text-blue-500 font-bold'>superadmin</p>
                 <BiChevronDown className='text-blue-500 font-bold text-xl' />
             </div>
         </div>
