@@ -12,7 +12,7 @@ const Navbar = () => {
                     <img src={logo} alt="" />
                     <p className='font-bold text-xs text-center'>Nexzen Demo</p>
                 </div>
-                <h2 className='text-2xl font-bold ml-7'>Prospect</h2>
+                <h2 className='text-2xl font-bold ml-10'>Prospect</h2>
             </div>
             <div className='flex justify-center items-center mr-4'>
                 <span className='relative mr-5'>
